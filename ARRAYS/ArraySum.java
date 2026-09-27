@@ -1,6 +1,6 @@
-import java.lang.*;
+import java.util.*;
 
-class Solution {
+class ArraySum {
     public static int[] twoSum(int[] nums, int target) {
          int n = nums.length;
          if(n < 2) {
