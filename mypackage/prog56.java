@@ -1,3 +1,4 @@
+package mypackage;
 class Complex {
     double a, b;
 

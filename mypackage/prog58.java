@@ -1,3 +1,4 @@
+package mypackage;
 interface Stack {
     void push(int x);
     int pop();

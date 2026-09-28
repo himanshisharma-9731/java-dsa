@@ -1,3 +1,4 @@
+package mypackage;
 abstract class Account {
     int accountNumber;
     String holderName;
