@@ -1,6 +1,6 @@
 public class pivotIndex {
     
-    public int pivotIndex(int[] nums) {
+    public int pivotInd(int[] nums) {
         int left = 0;
         int n = nums.length;
         int sum = Sum(nums,0, n);         
