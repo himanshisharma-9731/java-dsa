@@ -1,11 +1,11 @@
-//gotta understand it
 import java.util.List;
 import java.util.ArrayList;
 import java.util.Set;
 import java.util.HashSet;
 import java.util.Queue;
 import java.util.LinkedList;
-class Solution {
+//gotta understand it
+class parenthesesValid2 {
     public List<String> removeInvalidParentheses(String s) {
         List<String> ans = new ArrayList<>();
         Set<String> visited = new HashSet<>();
