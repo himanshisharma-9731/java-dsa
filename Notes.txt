@@ -1,1 +1,6 @@
 Question 643. to understand and do at leetcode
+Question 523, 1732
+Hashmap , set , arraylist , hashcode, linked list and other collections
+concepts should be undderstood before solving any other  questions on leet code or just
+do the questions that based on array and also find one more playlist where 
+they solve array and recursion questions on leetcode
