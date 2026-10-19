@@ -4,7 +4,7 @@ Hashmap , set , arraylist , hashcode, linked list and other collections
 concepts should be undderstood before solving any other  questions on leet code or just
 do the questions that based on array and also find one more playlist where 
 they solve array and recursion questions on leetcode
-
+solve 344
 agar aap ek static function banakar koi for loop chalate ho uss main class method ke liye or 
 class Solution {
     static{

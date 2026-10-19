@@ -1,3 +1,4 @@
+package ARR;
 public class Richest {
    class Solution {
     public int maximumWealth(int[][] accounts) {

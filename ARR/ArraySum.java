@@ -1,3 +1,4 @@
+package ARR;
 import java.util.*;
 
 class ArraySum {
