@@ -1,3 +1,4 @@
+package ARR;
 public class ThirdMaxNo {
     class Solution {
     public int thirdMax(int[] nums) {
