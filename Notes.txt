@@ -4,3 +4,102 @@ Hashmap , set , arraylist , hashcode, linked list and other collections
 concepts should be undderstood before solving any other  questions on leet code or just
 do the questions that based on array and also find one more playlist where 
 they solve array and recursion questions on leetcode
+
+agar aap ek static function banakar koi for loop chalate ho uss main class method ke liye or 
+class Solution {
+    static{
+        int[] prices = {1};
+        for(int i=0;i<200;i++){
+            int[] answer = finalPrices(prices);
+        }
+    }
+    public static int[] finalPrices(int[] prices) {
+        int[] answer = prices.clone();
+
+        if(prices.length < 0){
+            return answer;
+        }
+
+        for(int i=0;i<prices.length;i++){
+            
+            for(int j=i+1;j<prices.length;j++){
+                if(prices[i] >= prices[j]){
+                    answer[i] -= prices[j];
+                    break;
+                }
+            }
+        }
+
+        return answer;
+    }
+}
+usse run krte ho to better time complexity milti hai
+and also aap solution class ka object bhi banakar us object me koi value store krwate ho to bhi  similar effective time complexity 
+milti hain
+class Solution {
+
+    static 
+    {
+
+          Solution sol =new Solution();
+
+          for(int i=0;i<500;i++)
+          {
+             sol.smallerNumbersThanCurrent(new int []{0});
+          }
+    }
+
+
+    public int[] smallerNumbersThanCurrent(int[] nums)
+    
+     {
+
+        int freq[]=new int[max(nums)+1];
+       
+        int ans[]=new int [nums.length];
+
+
+        for(int num:nums)
+        {
+            freq[num]++;
+        }
+
+
+        for(int i=1;i<freq.length;i++)
+        {
+            freq[i]=freq[i]+freq[i-1];
+        }
+
+         for(int i=0;i<nums.length;i++)
+         {
+             if(nums[i]==0)
+             {
+                ans[i]=0;
+             }
+             else
+             {
+                ans[i]=freq[nums[i]-1];
+             }
+         }
+
+
+        return ans;
+        
+    }
+
+
+      public static int max(int arr[])
+    {
+        int max=Integer.MIN_VALUE;
+
+        for(int num:arr)
+        {
+            if(num>max)
+            {
+                max=num;
+            }
+        }
+        return max;
+    }
+
+} 
