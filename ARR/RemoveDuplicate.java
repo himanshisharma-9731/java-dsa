@@ -1,3 +1,4 @@
+package ARR;
 public class RemoveDuplicate {
     
     public int removeDuplicates(int[] nums) {

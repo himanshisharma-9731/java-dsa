@@ -1,3 +1,4 @@
+package ARR;
 public class Max1Repeat {
     
     public int findMaxConsecutiveOnes(int[] nums) {

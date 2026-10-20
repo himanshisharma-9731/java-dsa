@@ -1,3 +1,4 @@
+package ARR;
 public class pivotIndex {
     
     public int pivotInd(int[] nums) {

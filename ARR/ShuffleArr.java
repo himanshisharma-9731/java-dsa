@@ -1,3 +1,4 @@
+package ARR;
 public class ShuffleArr {
     public int[] shuffle(int[] nums, int n) {
         int l = nums.length;

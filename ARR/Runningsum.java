@@ -1,3 +1,4 @@
+package ARR;
 class Runningsum {
     public int[] runningSum(int[] nums) {
         int[] temp = new int[nums.length];

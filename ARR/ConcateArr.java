@@ -1,3 +1,4 @@
+package ARR;
 public class ConcateArr {
     public int[] getConcatenation(int[] nums) {
         int[] ans = new int[2*nums.length];

@@ -1,3 +1,4 @@
+package ARR;
 public class FinalPrices {
    class Solution {
     public int[] finalPrices(int[] prices) {

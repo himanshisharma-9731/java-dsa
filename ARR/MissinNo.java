@@ -1,3 +1,4 @@
+package ARR;
 public class MissinNo {
     public int missingNumber(int[] nums) {
         int XOR = nums.length;    
