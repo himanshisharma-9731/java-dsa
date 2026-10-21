@@ -1,3 +1,4 @@
+package ARR;
 public class ArrSortParity {
 
     public int[] sortArrayByParity(int[] nums) {
